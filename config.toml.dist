@@ -1,0 +1,17 @@
+course_ids = [
+    "HarvardX__Course1__3T2020",
+    # etc.
+]
+
+[[table]]
+table_name = "person_course"
+pii_cols = ["username"]
+q = """
+    SELECT
+        * EXCEPT (user_id, ip, latitude, longitude)
+    FROM
+        `full_table_name`
+""" # "full_table_name' will be interpolated at runtime
+
+# [[table]]
+# etc.
