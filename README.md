@@ -1,4 +1,4 @@
-hx-export
+harvardx-bigquery-export
 ===
 Remove PII from BigQuery tables and export them as CSV files
 
