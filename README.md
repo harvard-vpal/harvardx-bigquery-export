@@ -13,7 +13,7 @@ poetry install
 ```
 
 ## Environment
-Download an appropriate Google Cloud service account key to your file system, then copy `.env.dist` as `.env` and fill it the values.
+Download an appropriate Google Cloud service account key to your file system, then copy `.env.dist` as `.env` and fill in the values.
 
 ## Configuration
 
