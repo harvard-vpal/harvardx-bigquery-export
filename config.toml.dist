@@ -6,6 +6,7 @@ course_ids = [
 [[table]]
 table_name = "person_course"
 pii_cols = ["username"]
+json_cols = []
 q = """
     SELECT
         * EXCEPT (user_id, ip, latitude, longitude)
